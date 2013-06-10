@@ -10,3 +10,6 @@
     g.src='//www.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
+
+<!-- Needed by some Wordpress plugins -->
+<?php wp_footer(); ?>
